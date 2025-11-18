@@ -1,0 +1,54 @@
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Python cache/bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Packaging / build artifacts
+build/
+dist/
+wheels/
+*.egg-info/
+pip-wheel-metadata/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# IDE 
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Large artifacts
+*.pt
+*.onnx
+*.tflite
+
+# Project data outputs
+data/outputs/
+data/pipeline_outputs/
+data/test_images/
+
+# MuJoCo compiled assets
+*.mjcf
+*.mjb
