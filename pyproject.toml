@@ -6,10 +6,9 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "loguru>=0.7.3",
-    "mujoco>=3.3.7",
-    "mujoco-python-viewer>=0.1.4",
     "numpy>=2.3.4",
     "opencv-python>=4.11.0.86",
     "pillow>=12.0.0",
     "ultralytics>=8.3.226",
+    "pyside6>=6.10.0",
 ]
